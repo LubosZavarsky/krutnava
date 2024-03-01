@@ -1,0 +1,20 @@
+sprite_index = choose(spr_cloud_1, spr_cloud_2, spr_cloud_3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

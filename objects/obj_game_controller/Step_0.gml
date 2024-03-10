@@ -2,13 +2,13 @@ var _space = keyboard_check_pressed(vk_space);
 
 var _is_camera_at_bottom = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) >= room_height;
 
-if(room == rm_menu) {
+//if(room == rm_menu) {
 	
-	if (_space) {
-		room_goto_next();
-	}
+//	if (_space) {
+//		room_goto_next();
+//	}
 	
-}
+//}
 
 if (room == rm_intro) {
 	
@@ -34,7 +34,11 @@ if (room == rm_intro) {
 	
 		camera_scroll(4);
 		
-		if _is_camera_at_bottom show_debug_message("At bottom");
+		if _is_camera_at_bottom {
+			show_debug_message("At bottom");
+			room_goto_next();
+		
+		} 
 	
 	}
 }

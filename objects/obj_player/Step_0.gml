@@ -21,14 +21,14 @@ var key_jump = keyboard_check_pressed(vk_space);
 	////}
 
 	// Jumping
-	if	place_meeting(x, y+1, obj_collider) && key_jump {
+	if	place_meeting(x, y+1, obj_solid) && key_jump {
 		vsp = -jumpsp;
 	}
 
 	// Horizontal collision
-	if (place_meeting(x+hsp, y, obj_collider)) {
+	if (place_meeting(x+hsp, y, obj_solid)) {
 
-		while (!place_meeting(x+sign(hsp), y, obj_collider)) {	
+		while (!place_meeting(x+sign(hsp), y, obj_solid)) {	
 			x = x + sign(hsp);	
 		}
 		hsp = 0;
@@ -39,9 +39,9 @@ var key_jump = keyboard_check_pressed(vk_space);
 
 
 // Vertical collision
-if (place_meeting(x, y+vsp, obj_collider)) {
+if (place_meeting(x, y+vsp, obj_solid)) {
 
-	while (!place_meeting(x, y+sign(vsp), obj_collider)) {	
+	while (!place_meeting(x, y+sign(vsp), obj_solid)) {	
 		y = y + sign(vsp);	
 	}
 	vsp = 0;

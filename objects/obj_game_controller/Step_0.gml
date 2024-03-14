@@ -34,8 +34,8 @@ if (room == rm_intro) {
 	
 		camera_scroll(4);
 		
-		if _is_camera_at_bottom {
-			show_debug_message("At bottom");
+		if _is_camera_at_bottom && _space {
+			//show_debug_message("At bottom");
 			room_goto_next();
 		
 		} 

@@ -49,4 +49,26 @@ if (place_meeting(x, y+vsp, obj_solid)) {
 
 y = y + vsp;
 
+// Animation
+if (!place_meeting(x,y+1,obj_solid)) {
+
+	sprite_index = spr_player_jump;
+	
+	//if (vsp > 0) {
+	//	sprite_index = spr_player_fall;
+	//}
+
+} else {		
+	
+	if (hsp != 0) {		
+		sprite_index = spr_player_run;
+	} else {			
+		sprite_index = spr_player_idle;		
+	}
+}
+
+
+// Flip the sprite in the right direction
+if (hsp != 0) image_xscale = sign(hsp);
+
 

@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "clouds",
-    "path": "folders/Objects/clouds.yy",
+    "path": "folders/Objects/intro/clouds.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_ladder",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "level",
-    "path": "folders/Objects/level.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_solid",
-    "path": "sprites/spr_solid/spr_solid.yy",
+    "name": "Sprite27",
+    "path": "sprites/Sprite27/Sprite27.yy",
   },
   "spriteMaskId": null,
   "visible": false,

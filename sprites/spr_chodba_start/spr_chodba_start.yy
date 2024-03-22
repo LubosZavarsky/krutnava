@@ -1,8 +1,8 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_schody",
-  "bbox_bottom": 959,
+  "name": "spr_chodba_start",
+  "bbox_bottom": 479,
   "bbox_left": 0,
   "bbox_right": 639,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"3d7af1c4-fcf7-4010-92a3-06d29896db3c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84d40946-c999-4f22-8d23-85d3dcb46fa4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 960,
+  "height": 480,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"268f9876-ea97-4cd0-a36d-115e4152bf82","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb0263ba-b203-41c0-8402-d11b94df0b2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_schody",
+    "name": "spr_chodba_start",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"3d7af1c4-fcf7-4010-92a3-06d29896db3c","path":"sprites/spr_schody/spr_schody.yy",},},},"Disabled":false,"id":"9816ee4d-abd5-4f8e-91a8-dc883232fe59","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84d40946-c999-4f22-8d23-85d3dcb46fa4","path":"sprites/spr_chodba_start/spr_chodba_start.yy",},},},"Disabled":false,"id":"016a05eb-ab7c-4cdb-9ff8-29ab61fdacaf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

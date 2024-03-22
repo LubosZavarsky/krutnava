@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_dvorana_floor",
+  "name": "obj_chodba_dvorana",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dvorana_floor",
-    "path": "sprites/spr_dvorana_floor/spr_dvorana_floor.yy",
+    "name": "spr_chodba_dvorana",
+    "path": "sprites/spr_chodba_dvorana/spr_chodba_dvorana.yy",
   },
   "spriteMaskId": null,
   "visible": true,

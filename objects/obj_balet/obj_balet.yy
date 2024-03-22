@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_schody_roof",
+  "name": "obj_balet",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_schody_roof",
-    "path": "sprites/spr_schody_roof/spr_schody_roof.yy",
+    "name": "spr_balet",
+    "path": "sprites/spr_balet/spr_balet.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,11 +1,13 @@
 if (instance_exists(follow)) {	
-	x_to = follow.x;
+	x_to = follow.x;	
 	
 	if (follow.vsp != 0) {
-		y_to = lerp(y_to, follow.y, 1 / smoothing_factor);
-	} else {
+		//y_to = lerp(y_to, follow.y, 1 / smoothing_factor);
+		y_to = y_to
+	}	else {
+		//y_to = follow.y - y_offset
 		y_to = lerp(y_to, follow.y - y_offset, 1 / smoothing_factor);
-	} 	
+	}
 }
 
 x += (x_to - x) / smoothing_factor;

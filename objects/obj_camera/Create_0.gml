@@ -8,9 +8,9 @@ x_to = xstart;
 y_to = ystart;
 
 
-y_offset = 160; 
+y_offset = 126; 
 
-smoothing_factor = 15; // Adjust this value for smoother movement
+smoothing_factor = 5; // Adjust this value for smoother movement
 
 
 //// STEP backup

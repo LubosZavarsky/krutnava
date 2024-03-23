@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_piano",
-  "bbox_bottom": 91,
-  "bbox_left": 4,
-  "bbox_right": 93,
-  "bbox_top": 20,
+  "bbox_bottom": 183,
+  "bbox_left": 8,
+  "bbox_right": 187,
+  "bbox_top": 40,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4e945b04-510b-468d-80c7-7321bfa1b376",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b24e2aa4-28d7-43d6-9340-ac404ab9e0a7",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5ba7b942-0480-43a5-98e3-3f73ce636da9","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"85e02860-883a-4b11-b93a-1cddc152ed95","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4e945b04-510b-468d-80c7-7321bfa1b376","path":"sprites/spr_piano/spr_piano.yy",},},},"Disabled":false,"id":"7593e9f2-217a-459a-9e4b-34203ca834ca","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b24e2aa4-28d7-43d6-9340-ac404ab9e0a7","path":"sprites/spr_piano/spr_piano.yy",},},},"Disabled":false,"id":"0170ce4d-c9e1-4ead-afed-64b99c44583c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 200,
 }

@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "clouds",
-    "path": "folders/Sprites/clouds.yy",
+    "path": "folders/Sprites/intro/clouds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

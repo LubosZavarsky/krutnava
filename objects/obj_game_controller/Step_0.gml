@@ -46,8 +46,9 @@ if (room == rm_intro) {
 // test
 if  keyboard_check_pressed(vk_escape) {
 	
-	room_goto(rm_menu);
-	audio_stop_all();
+	//room_goto(rm_menu);
+	//audio_stop_all();
+	game_restart();
 
 }
 

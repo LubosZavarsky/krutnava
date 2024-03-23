@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_kniznica",
-  "bbox_bottom": 99,
-  "bbox_left": 22,
-  "bbox_right": 77,
+  "bbox_bottom": 199,
+  "bbox_left": 44,
+  "bbox_right": 155,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"efc6c60c-1c98-4204-a638-f96009551a55",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93f63825-4f83-4c2a-a024-0c770bcbba36",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"df14f599-8bfb-40ef-bce3-f1c956ff38b1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c944bed0-ff59-4f55-967e-f8a34c3c1d46","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"efc6c60c-1c98-4204-a638-f96009551a55","path":"sprites/spr_kniznica/spr_kniznica.yy",},},},"Disabled":false,"id":"01cc8724-6b5b-419b-9aed-dd81d7bbc92f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"93f63825-4f83-4c2a-a024-0c770bcbba36","path":"sprites/spr_kniznica/spr_kniznica.yy",},},},"Disabled":false,"id":"1fc3041f-8730-4daf-8706-de7d1ff82ae0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 200,
 }

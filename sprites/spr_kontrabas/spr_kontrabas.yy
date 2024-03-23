@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_kontrabas",
-  "bbox_bottom": 99,
-  "bbox_left": 30,
-  "bbox_right": 69,
-  "bbox_top": 4,
+  "bbox_bottom": 199,
+  "bbox_left": 60,
+  "bbox_right": 139,
+  "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e09d924b-2b44-48be-bdbe-57c99c4f9eb9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"dcac8aa0-c5fc-4238-8426-154da9a0c1ac",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7fef17c6-f2a6-42f8-a739-e3335f8e2d19","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"3a19e03f-e77d-4237-865b-591f55233b64","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e09d924b-2b44-48be-bdbe-57c99c4f9eb9","path":"sprites/spr_kontrabas/spr_kontrabas.yy",},},},"Disabled":false,"id":"e41279fd-9e0e-41da-a6d7-907a73c32a48","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dcac8aa0-c5fc-4238-8426-154da9a0c1ac","path":"sprites/spr_kontrabas/spr_kontrabas.yy",},},},"Disabled":false,"id":"1428f854-09dc-4b40-b779-1cad70df0004","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 200,
 }

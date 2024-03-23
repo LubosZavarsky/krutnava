@@ -18,6 +18,16 @@ if (touching_ladder_and_holding_up) {
     
     hsp = move * walksp;
     vsp = vsp + grv;
+	
+	// Keep player in the room
+	x=clamp(x,0,room_width-sprite_width/2);
+	//y=clamp(y,0,room_height-sprite_height/2);
+	
+	if (collision) {
+	walksp = 0;
+	sprite_index = spr_player_dead;
+	exit;
+	}
     
     // Jumping
     if (place_meeting(x, y+1, obj_solid) && key_jump) {
@@ -53,10 +63,12 @@ if (touching_ladder_and_holding_up) {
         } else {            
             sprite_index = spr_player_idle;        
         }
-    }
+    }	
 
 }
 
 
 // Flip the sprite in the right direction
 if (hsp != 0) image_xscale = sign(hsp);
+
+

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_kvet",
-  "bbox_bottom": 99,
-  "bbox_left": 2,
-  "bbox_right": 93,
-  "bbox_top": 4,
+  "bbox_bottom": 199,
+  "bbox_left": 4,
+  "bbox_right": 187,
+  "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e5c30a92-e772-4586-839e-cd4c8f40eb76",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f23cf992-0c62-4bbb-ad52-1f6a13472859",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 100,
+  "height": 200,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"07edd2e7-058b-4255-9093-ad2adebf2294","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9f01b776-106d-4446-bb65-83139713b8a8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e5c30a92-e772-4586-839e-cd4c8f40eb76","path":"sprites/spr_kvet/spr_kvet.yy",},},},"Disabled":false,"id":"2e242b98-d490-4651-99c2-95da7073e69e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f23cf992-0c62-4bbb-ad52-1f6a13472859","path":"sprites/spr_kvet/spr_kvet.yy",},},},"Disabled":false,"id":"28a21865-efa7-4381-931a-8d31ee9fcb35","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 100,
+  "width": 200,
 }

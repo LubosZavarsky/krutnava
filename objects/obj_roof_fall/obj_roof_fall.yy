@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_goto_roof",
+  "name": "obj_roof_fall",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "invisible",
+    "path": "folders/Objects/level/invisible.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,9 +28,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite41",
-    "path": "sprites/Sprite41/Sprite41.yy",
+    "name": "spr_roof_fall",
+    "path": "sprites/spr_roof_fall/spr_roof_fall.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "level",
-    "path": "folders/Objects/level.yy",
+    "name": "invisible",
+    "path": "folders/Objects/level/invisible.yy",
   },
   "parentObjectId": null,
   "persistent": false,

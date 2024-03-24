@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "invisible",
+    "path": "folders/Objects/level/invisible.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite27",
-    "path": "sprites/Sprite27/Sprite27.yy",
+    "name": "spr_ladder",
+    "path": "sprites/spr_ladder/spr_ladder.yy",
   },
   "spriteMaskId": null,
   "visible": false,

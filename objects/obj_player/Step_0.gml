@@ -67,8 +67,10 @@ if (touching_ladder_and_holding_up) {
 
 }
 
-
 // Flip the sprite in the right direction
 if (hsp != 0) image_xscale = sign(hsp);
+
+//TEST
+//if (place_meeting(x,y, obj_schody)) show_debug_message("rrrrr") else show_debug_message("ooooo")
 
 

@@ -10,6 +10,7 @@
     {"name":"intro","order":12,"path":"folders/Objects/intro.yy",},
     {"name":"level","order":7,"path":"folders/Objects/level.yy",},
     {"name":"decor","order":6,"path":"folders/Objects/level/decor.yy",},
+    {"name":"invisible","order":14,"path":"folders/Objects/level/invisible.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -28,7 +29,6 @@
     {"name":"roof","order":9,"path":"folders/Sprites/roof.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"invisible","order":14,"path":"folders/Objects/level/invisible.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_title","order":4,"path":"sprites/spr_title/spr_title.yy",},

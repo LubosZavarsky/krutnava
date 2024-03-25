@@ -1,8 +1,8 @@
 //Check if we're above them
-var above_enemy = y < other.y + vsp;
-var falling = vsp > 0;
+var _above_enemy = y < other.y + vsp;
+var _falling = vsp > 0;
 
-if (above_enemy and falling) {
+if (_above_enemy && _falling) {
 	//Keep player above the enemy
 	if (!place_meeting(x, yprevious, obj_solid)) {
 		y = yprevious;
@@ -19,7 +19,19 @@ if (above_enemy and falling) {
 	//Bounce off the enemy
 	vsp = -8
 } else {	
-	collision = true;
+	
+	if (!invincible) {			
+		global.hp -= 1;
+		if (global.hp <= 0) {
+			 walksp = 0;
+			sprite_index = spr_player_dead;			
+		} else {  
+			invincible = true
+		   	alarm[0] = 60 * 2;
+			alarm[1] = 1;
+		}
+		
+	}
 }
 
 

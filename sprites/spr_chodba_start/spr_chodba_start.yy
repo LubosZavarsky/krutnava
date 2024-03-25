@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_chodba_start",
-  "bbox_bottom": 479,
+  "bbox_bottom": 639,
   "bbox_left": 0,
   "bbox_right": 639,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"84d40946-c999-4f22-8d23-85d3dcb46fa4",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4012226d-b128-4b3c-a971-7c599e05fe9d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 480,
+  "height": 640,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cb0263ba-b203-41c0-8402-d11b94df0b2e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b1be2037-6b03-4735-a79d-095b96f48324","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"84d40946-c999-4f22-8d23-85d3dcb46fa4","path":"sprites/spr_chodba_start/spr_chodba_start.yy",},},},"Disabled":false,"id":"016a05eb-ab7c-4cdb-9ff8-29ab61fdacaf","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4012226d-b128-4b3c-a971-7c599e05fe9d","path":"sprites/spr_chodba_start/spr_chodba_start.yy",},},},"Disabled":false,"id":"8f10d38c-dff2-4e7d-ad82-4889ed87645a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

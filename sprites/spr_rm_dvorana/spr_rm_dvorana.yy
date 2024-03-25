@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_rm_dvorana",
-  "bbox_bottom": 479,
+  "bbox_bottom": 959,
   "bbox_left": 0,
-  "bbox_right": 639,
+  "bbox_right": 1279,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"888ed6ce-d1ad-4c44-8756-32d71d9a29ba",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"740a5758-bb6f-4e94-a780-4d164890b83b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 480,
+  "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fcf6a918-7d79-4852-8a0e-f67cdfe51ee3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"74050c79-faf4-411a-8c00-affa596613fc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"888ed6ce-d1ad-4c44-8756-32d71d9a29ba","path":"sprites/spr_rm_dvorana/spr_rm_dvorana.yy",},},},"Disabled":false,"id":"0b30636d-053d-487c-9ecc-f3c53c26279a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"740a5758-bb6f-4e94-a780-4d164890b83b","path":"sprites/spr_rm_dvorana/spr_rm_dvorana.yy",},},},"Disabled":false,"id":"f967c920-0c1d-4b27-81b4-996874b78829","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 1280,
 }

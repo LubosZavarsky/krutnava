@@ -1,3 +1,3 @@
 target_room = rm_dvorana;
-targetX = 69;
-targetY = 420;
+targetX = 154;
+targetY = 875;

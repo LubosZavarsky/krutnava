@@ -5,4 +5,4 @@ walksp = 4;
 jumpsp = 10;
 climb_spd = 3;
 
-collision = false;
+invincible = false;

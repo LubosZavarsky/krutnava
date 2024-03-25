@@ -22,8 +22,9 @@ if (_above_enemy && _falling) {
 	
 	if (!invincible) {			
 		global.hp -= 1;
+		
 		if (global.hp <= 0) {
-			 walksp = 0;
+			walksp = 0;
 			sprite_index = spr_player_dead;			
 		} else {  
 			invincible = true

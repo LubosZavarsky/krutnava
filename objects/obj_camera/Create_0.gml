@@ -10,7 +10,7 @@ y_to = follow.y //ystart;
 
 y_offset = 127; 
 
-smoothing_factor = 5; // Adjust this value for smoother movement
+smoothing_factor = 5; 
 
 
 //// STEP backup

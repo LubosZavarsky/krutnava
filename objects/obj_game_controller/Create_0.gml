@@ -24,9 +24,10 @@ draw_set_font(fnt_game);
 // vyplnit level dekoraciami a alienmi - donahravam vsetky decor sprity od Mareka a spravim z nich objekty, domysliet plosiny na skakanie?
 // player collision mask - idle vs run vs jump ?
 // delay pri prechode do win / lost screenu, resp tiez ta transition animacia?
-// 2 test sound sets (doda Majo, ked mu dame zoznam) + spolnit do kodu k interakciam
+// 2 test sound sets (doda Majo, ked mu dame zoznam) + doplnit do kodu k interakciam
 // Dvorana neni OK (ked si das obj_solid ako visible, dal som tam nejake plosiny, ale celkovo to nevyzera dobre)
-// sprity zivoty, kusky partitury na zbieranie do hry  
+// sprity zivoty, kusky partitury na zbieranie do hry (doda Marek)
+// vratnica - pri prvom prechode okolo sprite s komentarom vratnika (doda Marek)
 
 
 

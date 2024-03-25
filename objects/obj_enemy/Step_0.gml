@@ -1,6 +1,6 @@
 vsp = vsp + grv;
 
-// Horizontal collision
+// Horizontal collision - change direction
 if (place_meeting(x+hsp, y, obj_turner)) {
 	while (!place_meeting(x+sign(hsp), y, obj_turner)) {	
 		x = x + sign(hsp);	

@@ -44,6 +44,7 @@
     {"name":"spr_bg_win_2","order":15,"path":"sprites/spr_bg_win_2/spr_bg_win_2.yy",},
     {"name":"spr_roof_bg_1","order":1,"path":"sprites/spr_roof_bg_1/spr_roof_bg_1.yy",},
     {"name":"snd_asset","order":1,"path":"scripts/snd_asset/snd_asset.yy",},
+    {"name":"restart","order":2,"path":"scripts/restart/restart.yy",},
     {"name":"obj_solid","order":1,"path":"objects/obj_solid/obj_solid.yy",},
     {"name":"rm_lost","order":7,"path":"rooms/rm_lost/rm_lost.yy",},
     {"name":"rm_roof","order":8,"path":"rooms/rm_roof/rm_roof.yy",},

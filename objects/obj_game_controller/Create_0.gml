@@ -30,5 +30,3 @@ draw_set_font(fnt_game);
 // vratnica - pri prvom prechode okolo sprite s komentarom vratnika (doda Marek)
 
 
-
-

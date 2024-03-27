@@ -62,6 +62,8 @@ if  keyboard_check_pressed(vk_escape) {
 	
 	//room_goto(rm_menu);
 	//audio_stop_all();
-	game_restart();
+	
+	//game_restart();
+	restart();
 
 }

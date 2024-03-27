@@ -69,6 +69,7 @@
     {"id":{"name":"camera_scroll","path":"scripts/camera_scroll/camera_scroll.yy",},},
     {"id":{"name":"spr_roof_bg_1","path":"sprites/spr_roof_bg_1/spr_roof_bg_1.yy",},},
     {"id":{"name":"snd_asset","path":"scripts/snd_asset/snd_asset.yy",},},
+    {"id":{"name":"restart","path":"scripts/restart/restart.yy",},},
     {"id":{"name":"obj_dvorana","path":"objects/obj_dvorana/obj_dvorana.yy",},},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},},
     {"id":{"name":"rm_lost","path":"rooms/rm_lost/rm_lost.yy",},},

@@ -83,6 +83,7 @@
     {"name":"rm_ufo_2","order":11,"path":"rooms/rm_ufo_2/rm_ufo_2.yy",},
     {"name":"spr_controls","order":1,"path":"sprites/spr_controls/spr_controls.yy",},
     {"name":"spr_kvet_4","order":8,"path":"sprites/spr_kvet_4/spr_kvet_4.yy",},
+    {"name":"obj_screenshake","order":3,"path":"objects/obj_screenshake/obj_screenshake.yy",},
     {"name":"spr_enemy_dead","order":3,"path":"sprites/spr_enemy_dead/spr_enemy_dead.yy",},
     {"name":"spr_kvet_3","order":7,"path":"sprites/spr_kvet_3/spr_kvet_3.yy",},
     {"name":"obj_chodba_roof","order":5,"path":"objects/obj_chodba_roof/obj_chodba_roof.yy",},

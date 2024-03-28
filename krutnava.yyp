@@ -115,6 +115,7 @@
     {"id":{"name":"obj_ladicka","path":"objects/obj_ladicka/obj_ladicka.yy",},},
     {"id":{"name":"spr_controls","path":"sprites/spr_controls/spr_controls.yy",},},
     {"id":{"name":"spr_kvet_4","path":"sprites/spr_kvet_4/spr_kvet_4.yy",},},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"spr_enemy_dead","path":"sprites/spr_enemy_dead/spr_enemy_dead.yy",},},
     {"id":{"name":"spr_kvet_3","path":"sprites/spr_kvet_3/spr_kvet_3.yy",},},
     {"id":{"name":"obj_chodba_roof","path":"objects/obj_chodba_roof/obj_chodba_roof.yy",},},

@@ -20,7 +20,8 @@ if (_above_enemy && _falling) {
 	vsp = -8
 } else {	
 	
-	if (!invincible) {			
+	if (!invincible) {		
+		global.shake_magnitude = 5;
 		global.hp -= 1;
 		
 		if (global.hp <= 0) {

@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "invisible",
-    "path": "folders/Objects/level/invisible.yy",
+    "path": "folders/Objects/invisible.yy",
   },
   "parentObjectId": null,
   "persistent": false,

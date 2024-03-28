@@ -35,17 +35,21 @@ if (room == rm_intro) {
 	
 		camera_scroll(4);
 		
-		if _is_camera_at_bottom && _space ||  _is_camera_at_bottom && _click  {
-			//show_debug_message("At bottom");
-			room_goto_next();
-		
-		} 
-	
+		if _is_camera_at_bottom {				
+			cutscene_intro();		
+		} 	
 	}
+	
+	if (cutscene_finished && _space || cutscene_finished && _click) {
+
+	room_goto_next();
+	
+	}	
 }
 
 
-if (room == rm_ufo || room == rm_win_1) {
+
+if (room == rm_ufo_1 || room == rm_ufo_2 || room == rm_win_1) {
 
 	if _space || _click room_goto_next();
 
@@ -61,9 +65,9 @@ if (room == rm_win_2 || room == rm_lost) {
 if  keyboard_check_pressed(vk_escape) {
 	
 	//room_goto(rm_menu);
-	//audio_stop_all();
+	audio_stop_all();
 	
-	//game_restart();
-	restart();
+	game_restart();
+	//restart();
 
 }

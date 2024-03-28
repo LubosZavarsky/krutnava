@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dvorana",
-    "path": "sprites/spr_dvorana/spr_dvorana.yy",
+    "name": "spr_chodba_room",
+    "path": "sprites/spr_chodba_room/spr_chodba_room.yy",
   },
   "spriteMaskId": null,
   "visible": true,

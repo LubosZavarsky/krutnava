@@ -7,8 +7,11 @@ global.hp = 3;
 // Collectibles
 global.collect = 0;
 
-// SET FONT
+// Set font
 draw_set_font(fnt_game);
+
+// Intro cutscene
+cutscene_finished = false;
 
 // test
 //room_goto(rm_game)

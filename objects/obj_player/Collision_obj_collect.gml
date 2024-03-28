@@ -6,6 +6,6 @@ if (global.collect >= 4 ) {
 	
 	instance_destroy(); //??
 
-	room_goto(rm_win_1);
+	room_goto(rm_ufo_1);
 
 }

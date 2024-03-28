@@ -42,7 +42,7 @@ if (room == rm_intro) {
 	
 	if (cutscene_finished && _space || cutscene_finished && _click) {
 
-	room_goto_next();
+		room_goto_next();
 	
 	}	
 }

@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_collect_bubon",
-  "eventList": [],
+  "name": "obj_ladicka",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "collect",
-    "path": "folders/Objects/collect.yy",
+    "name": "ladicka",
+    "path": "folders/Objects/ladicka.yy",
   },
-  "parentObjectId": {
-    "name": "obj_collect_parent",
-    "path": "objects/obj_collect_parent/obj_collect_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bubon",
-    "path": "sprites/spr_bubon/spr_bubon.yy",
+    "name": "spr_ladicka",
+    "path": "sprites/spr_ladicka/spr_ladicka.yy",
   },
   "spriteMaskId": null,
   "visible": true,

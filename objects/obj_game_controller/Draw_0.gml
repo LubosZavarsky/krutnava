@@ -12,12 +12,12 @@
 if (room == rm_game || room == rm_dvorana || room = rm_roof) {
 			
 		// LIVES
-		//for (var _i = 0; _i < global.hp; _i++) {
-		//	draw_sprite(spr_heart, 0, cx + 25 + 25*i, cy + 55)			
-		//}		
-		draw_text(cx + 25, cy + 25,"lives: "+ string(global.hp));
+		for (var _i = 0; _i < global.hp; _i++) {
+			draw_sprite(spr_heart, 0, cx + 10 + 40 * _i, cy + 10)			
+		}		
+		//draw_text(cx + 25, cy + 25,"lives: "+ string(global.hp));
 		
 		// COLLECTIBLES
-		draw_text(cx + 540, cy + 25,"parts: "+ string(global.collect) + " / 4");
+		draw_text(cx + 540, cy + 25,"parts: "+ string(global.collect) + " / 6");
 
 }

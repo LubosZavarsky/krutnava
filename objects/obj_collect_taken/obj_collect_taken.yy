@@ -1,18 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_collect_bubon",
-  "eventList": [],
+  "name": "obj_collect_taken",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
     "name": "collect",
     "path": "folders/Objects/collect.yy",
   },
-  "parentObjectId": {
-    "name": "obj_collect_parent",
-    "path": "objects/obj_collect_parent/obj_collect_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bubon",
-    "path": "sprites/spr_bubon/spr_bubon.yy",
+    "name": "spr_collect_taken",
+    "path": "sprites/spr_collect_taken/spr_collect_taken.yy",
   },
   "spriteMaskId": null,
   "visible": true,

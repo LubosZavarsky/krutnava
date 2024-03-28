@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_collect",
+  "name": "obj_ladicka_taken",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "collect",
-    "path": "folders/Objects/collect.yy",
+    "name": "ladicka",
+    "path": "folders/Objects/ladicka.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_collect",
-    "path": "sprites/spr_collect/spr_collect.yy",
+    "name": "spr_ladicka_taken",
+    "path": "sprites/spr_ladicka_taken/spr_ladicka_taken.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -47,6 +47,7 @@
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_collect_harfa","order":4,"path":"objects/obj_collect_harfa/obj_collect_harfa.yy",},
     {"name":"spr_komin_3","order":4,"path":"sprites/spr_komin_3/spr_komin_3.yy",},
+    {"name":"spr_player_door","order":8,"path":"sprites/spr_player_door/spr_player_door.yy",},
     {"name":"obj_title","order":3,"path":"objects/obj_title/obj_title.yy",},
     {"name":"spr_lavica_2","order":10,"path":"sprites/spr_lavica_2/spr_lavica_2.yy",},
     {"name":"spr_piano_2","order":5,"path":"sprites/spr_piano_2/spr_piano_2.yy",},

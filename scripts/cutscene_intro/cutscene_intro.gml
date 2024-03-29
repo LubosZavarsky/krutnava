@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function cutscene_intro() {
-	
+function cutscene_intro() {	
 
 	var _target_y = 825;
 	var _spd = 0.5; 

@@ -1,7 +1,10 @@
 var _space = keyboard_check_pressed(vk_space);
 var _click = mouse_check_button_pressed(mb_left);
 
-var _is_camera_at_bottom = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) >= room_height;
+var _cam_y = camera_get_view_y(view_camera[0])
+var _cam_height = camera_get_view_height(view_camera[0])
+
+var _is_camera_at_bottom = _cam_y + _cam_height >= room_height;
 
 //if(room == rm_menu) {
 	

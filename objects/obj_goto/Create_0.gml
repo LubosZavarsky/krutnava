@@ -1,3 +1,4 @@
 target_room = 1;
-targetX = 1;
-targetY = 1;
+target_x = 1;
+target_y = 1;
+

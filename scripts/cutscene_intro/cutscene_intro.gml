@@ -17,6 +17,7 @@ function cutscene_intro() {
 	        _player.image_index = 0;
 			cutscene_finished = true;
 			
-			show_debug_message("Cutscene Finished");	     
+			show_debug_message("Cutscene Finished");
+			room_transition(2)
 		}	
 }

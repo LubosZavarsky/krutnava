@@ -1,3 +1,3 @@
 target_room = rm_game;
-targetX = 4811;
-targetY = 840;
+target_x = 4811;
+target_y = 840;

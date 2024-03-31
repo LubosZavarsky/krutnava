@@ -12,6 +12,7 @@ if (touching_ladder_and_holding_up) {
     // Climb up
     y -= climb_spd;
 	sprite_index = spr_player_climb;
+	weapon_sprite_index = spr_ladicka_up;
 } else {
 	
     // Movement calc
@@ -32,10 +33,14 @@ if (touching_ladder_and_holding_up) {
     
     // Horizontal collision
     if (place_meeting(x+hsp, y, obj_solid)) {
-        while (!place_meeting(x+sign(hsp), y, obj_solid)) {    
-            x = x + sign(hsp);    
-        }
-        hsp = 0;
+		var _instance = instance_place(x+hsp, y, obj_solid)
+		
+		y = _instance.y - _instance.sprite_height * 2
+		
+        //while (!place_meeting(x+sign(hsp), y, obj_solid)) {    
+        //    x = x + sign(hsp);    
+        //}
+        //hsp = 0;
     }
     
     x = x + hsp;
@@ -53,11 +58,14 @@ if (touching_ladder_and_holding_up) {
     // Animation
     if (!place_meeting(x,y+1,obj_solid)) {
         sprite_index = spr_player_jump;
+		weapon_sprite_index = spr_ladicka_jump;
     } else {        
         if (hsp != 0) {      
             sprite_index = spr_player_run;
+			weapon_sprite_index = spr_ladicka_run;
         } else {            
-            sprite_index = spr_player_idle;        
+            sprite_index = spr_player_idle;
+			weapon_sprite_index = spr_ladicka_idle;
         }
     }	
 
@@ -65,5 +73,3 @@ if (touching_ladder_and_holding_up) {
 
 // Flip the sprite in the right direction
 if (hsp != 0) image_xscale = sign(hsp);
-
-

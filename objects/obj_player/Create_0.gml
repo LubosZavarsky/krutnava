@@ -9,3 +9,7 @@ jumpsp = 10;
 climb_spd = 3;
 
 invincible = false;
+
+has_weapon = false;
+
+weapon_sprite_index = noone;

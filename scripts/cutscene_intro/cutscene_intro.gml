@@ -12,5 +12,6 @@ function cutscene_intro() {
 	        _player.y = _target_y; // Ensure the player is exactly at the target position
 	        _player.image_index = 0;
 			cutscene_finished = true;
+			room_transition(2);
 		}	
 }

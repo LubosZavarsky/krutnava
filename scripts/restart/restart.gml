@@ -30,6 +30,8 @@ function restart() {
          y = initial_y;
        
     }	
+	
+	// Reset vsetky objekty na povodne miesta ---> enemies, collectibles
 
     
     // Stop all audio and flush textures

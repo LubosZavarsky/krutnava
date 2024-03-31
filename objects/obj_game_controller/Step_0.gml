@@ -43,9 +43,9 @@ if (room == rm_intro) {
 		} 	
 	}
 	
-	if (cutscene_finished && _space || cutscene_finished && _click) {
-		room_transition(2);
-	}	
+	//if (cutscene_finished && _space || cutscene_finished && _click) {
+	//	room_transition(2); ---> presunute do scriptu cutscene_intro
+	//}	
 }
 
 

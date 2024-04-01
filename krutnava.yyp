@@ -50,12 +50,13 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"roof","folderPath":"folders/Sprites/roof.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shooting","folderPath":"folders/Objects/shooting.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.1.102",
   },
   "resources": [
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
@@ -102,7 +103,7 @@
     {"id":{"name":"obj_roof_fall","path":"objects/obj_roof_fall/obj_roof_fall.yy",},},
     {"id":{"name":"spr_cloud_2","path":"sprites/spr_cloud_2/spr_cloud_2.yy",},},
     {"id":{"name":"spr_roof_fall","path":"sprites/spr_roof_fall/spr_roof_fall.yy",},},
-    {"id":{"name":"obj_shot","path":"objects/obj_shot/obj_shot.yy",},},
+    {"id":{"name":"obj_shot_parent","path":"objects/obj_shot_parent/obj_shot_parent.yy",},},
     {"id":{"name":"spr_kontrabas","path":"sprites/spr_kontrabas/spr_kontrabas.yy",},},
     {"id":{"name":"spr_ladicka_taken","path":"sprites/spr_ladicka_taken/spr_ladicka_taken.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},

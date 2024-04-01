@@ -6,12 +6,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "shooting",
+    "path": "folders/Objects/shooting.yy",
   },
   "parentObjectId": {
-    "name": "obj_shot",
-    "path": "objects/obj_shot/obj_shot.yy",
+    "name": "obj_shot_parent",
+    "path": "objects/obj_shot_parent/obj_shot_parent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

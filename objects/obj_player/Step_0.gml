@@ -76,9 +76,12 @@ if (touching_ladder_and_holding_up) {
     }	
 
 	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {
-		//sprite_index = spr_player_shoot;
-		var shot = instance_create_layer(x, y, "Instances", obj_shot_player)
+		sprite_index = spr_player_shoot;
+		
+		var shot = instance_create_layer(x + 15, y + 10, "Instances", obj_shot_player)
 		shot.shot_direction = facing_direction
+		shot.image_xscale = sign(facing_direction)
+		
 	}
 }
 

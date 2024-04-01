@@ -17,9 +17,6 @@ with (other) {
 }
 
 
-//with(other) {
-//	instance_destroy()
-//}
 
 
 

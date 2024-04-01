@@ -49,8 +49,13 @@ if(is_in_camera_view) {
         _player_in_front = true;
     }
 	
-	if(_player_in_front && point_distance(x, y, _player.x, _player.y) < 250 && !instance_exists(obj_shot_enemy)) {
+	if(_player_in_front && point_distance(x, y, _player.x, _player.y) < 250 && !instance_exists(obj_shot_enemy) && cooldown <= 0) {
 		var _shot = instance_create_layer(x, y, "Instances", obj_shot_enemy);
 		_shot.shot_direction = -facing_direction	
+		cooldown = cooldown_duration; // Start cooldown
 	}
+}
+
+if (cooldown > 0) {
+    cooldown--;
 }

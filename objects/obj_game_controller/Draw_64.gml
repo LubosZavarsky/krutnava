@@ -1,5 +1,4 @@
 
-	
 draw_set_colour(c_red);
 
 if (room == rm_game || room == rm_dvorana || room = rm_roof) {

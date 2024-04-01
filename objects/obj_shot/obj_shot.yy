@@ -1,12 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_enemy",
+  "name": "obj_shot",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_shot_player","path":"objects/obj_shot_player/obj_shot_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,12 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_green",
-    "path": "sprites/spr_enemy_green/spr_enemy_green.yy",
+    "name": "spr_player_shot",
+    "path": "sprites/spr_player_shot/spr_player_shot.yy",
   },
-  "spriteMaskId": {
-    "name": "spr_enemy_green",
-    "path": "sprites/spr_enemy_green/spr_enemy_green.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }

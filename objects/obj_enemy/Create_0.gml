@@ -6,4 +6,7 @@ vsp = 0;
 grv = 0.3;
 walksp = 3;
 
+facing_direction = 1;
+is_in_camera_view = false;
+
 sprite_index = choose(spr_enemy_green, spr_enemy_black, spr_enemy_purple);

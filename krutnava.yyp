@@ -55,7 +55,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
@@ -130,7 +130,6 @@
     {"id":{"name":"rm_ufo_1","path":"rooms/rm_ufo_1/rm_ufo_1.yy",},},
     {"id":{"name":"obj_cloud_spawner","path":"objects/obj_cloud_spawner/obj_cloud_spawner.yy",},},
     {"id":{"name":"spr_floor_fix","path":"sprites/spr_floor_fix/spr_floor_fix.yy",},},
-    {"id":{"name":"Sprite87","path":"sprites/Sprite87/Sprite87.yy",},},
     {"id":{"name":"spr_roof_ground","path":"sprites/spr_roof_ground/spr_roof_ground.yy",},},
     {"id":{"name":"spr_ladicka_run","path":"sprites/spr_ladicka_run/spr_ladicka_run.yy",},},
     {"id":{"name":"obj_enemy_hover","path":"objects/obj_enemy_hover/obj_enemy_hover.yy",},},

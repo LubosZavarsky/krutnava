@@ -82,15 +82,11 @@ if (touching_ladder_and_holding_up) {
         }
     }	
 
-	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {
+	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {		
 				
-		var _pos_x = x + 15 * sign(facing_direction);
-		var _pos_y = y + 10;
-		
-		var shot = instance_create_layer(_pos_x, _pos_y, "Instances", obj_shot_player)
-		shot.shot_direction = facing_direction
-		shot.image_xscale = sign(facing_direction)
-		
+		var _shot = instance_create_layer(x, y, "Instances", obj_shot_player)
+		_shot.shot_direction = facing_direction
+		_shot.image_xscale = sign(facing_direction)		
 	}
 }
 

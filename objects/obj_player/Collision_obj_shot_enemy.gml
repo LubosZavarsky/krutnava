@@ -12,6 +12,9 @@ if (!invincible) {
 	}
 }
 
+with (other) {
+	instance_destroy() 
+}
 
 
 

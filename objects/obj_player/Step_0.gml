@@ -14,6 +14,13 @@ if(key_right) {
 	facing_direction = -1;
 }
 
+//if instance_exists(obj_shot_player){
+
+//	sprite_index = spr_player_shoot;
+//	exit;
+//} 
+
+
 // Climbing
 if (touching_ladder_and_holding_up) {
     // Climb up
@@ -76,8 +83,7 @@ if (touching_ladder_and_holding_up) {
     }	
 
 	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {
-		//sprite_index = spr_player_shoot;
-		
+				
 		var _pos_x = x + 15 * sign(facing_direction);
 		var _pos_y = y + 10;
 		
@@ -87,6 +93,7 @@ if (touching_ladder_and_holding_up) {
 		
 	}
 }
+
 
 // Flip the sprite in the right direction
 if (hsp != 0) image_xscale = sign(hsp);

@@ -24,6 +24,7 @@
     {"name":"snd_MZ_player_shoot","order":5,"path":"sounds/snd_MZ_player_shoot/snd_MZ_player_shoot.yy",},
     {"name":"snd_XY_smash","order":2,"path":"sounds/snd_XY_smash/snd_XY_smash.yy",},
     {"name":"snd_XY_collision","order":14,"path":"sounds/snd_XY_collision/snd_XY_collision.yy",},
+    {"name":"fnt_hud","order":1,"path":"fonts/fnt_hud/fnt_hud.yy",},
     {"name":"snd_MZ_jump","order":12,"path":"sounds/snd_MZ_jump/snd_MZ_jump.yy",},
     {"name":"snd_XY_player_hit","order":5,"path":"sounds/snd_XY_player_hit/snd_XY_player_hit.yy",},
     {"name":"snd_XY_collectible_taken","order":15,"path":"sounds/snd_XY_collectible_taken/snd_XY_collectible_taken.yy",},

@@ -1,4 +1,5 @@
 
+draw_set_font(fnt_hud);
 draw_set_colour(c_red);
 
 if (room == rm_game || room == rm_dvorana || room = rm_roof) {
@@ -10,6 +11,6 @@ if (room == rm_game || room == rm_dvorana || room = rm_roof) {
 		//draw_text(cx + 25, cy + 25,"lives: "+ string(global.hp));
 		
 		// COLLECTIBLES
-		draw_text(x + 540, y + 25,"parts: "+ string(global.collect) + " / 6");
+		draw_text(x + 490, y + 20,"PARTY: "+ string(global.collect) + " / 6");
 
 }

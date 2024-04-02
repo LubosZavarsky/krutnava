@@ -8,7 +8,7 @@ x_to = follow.x //xstart;
 y_to = follow.y //ystart;
 
 
-y_offset = 127; 
+y_offset = 126; 
 
 smoothing_factor = 5; 
 

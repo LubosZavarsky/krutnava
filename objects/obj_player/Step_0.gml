@@ -41,19 +41,19 @@ if (touching_ladder_and_holding_up) {
 	    
     // Jumping
     if (place_meeting(x, y+1, obj_solid) && key_jump) {
+		if (!audio_is_playing(snd_asset("jump"))) audio_play_sound(snd_asset("jump"), 2, false);
         vsp = -jumpsp;
     }
     
     // Horizontal collision
     if (place_meeting(x+hsp, y, obj_solid)) {
-		var _instance = instance_place(x+hsp, y, obj_solid)
+		//var _instance = instance_place(x+hsp, y, obj_solid)		
+		//y = _instance.y - _instance.sprite_height * 2
 		
-		y = _instance.y - _instance.sprite_height * 2
-		
-        //while (!place_meeting(x+sign(hsp), y, obj_solid)) {    
-        //    x = x + sign(hsp);    
-        //}
-        //hsp = 0;
+        while (!place_meeting(x+sign(hsp), y, obj_solid)) {    
+            x = x + sign(hsp);    
+        }
+        hsp = 0;
     }
     
     x = x + hsp;
@@ -72,19 +72,23 @@ if (touching_ladder_and_holding_up) {
     if (!place_meeting(x,y+1,obj_solid)) {
         sprite_index = spr_player_jump;
 		weapon_sprite_index = spr_ladicka_jump;
+		if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));
     } else {        
         if (hsp != 0) {      
             sprite_index = spr_player_run;
 			weapon_sprite_index = spr_ladicka_run;
+			if (!audio_is_playing(snd_asset("steps"))) audio_play_sound(snd_asset("steps"), 2, false);
         } else {            
             sprite_index = spr_player_idle;
 			weapon_sprite_index = spr_ladicka_idle;
+			if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));
         }
     }	
 
 	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {		
 				
-		var _shot = instance_create_layer(x, y, "Instances", obj_shot_player)
+		var _shot = instance_create_layer(x, y, "Player_shot", obj_shot_player)
+		if (!audio_is_playing(snd_asset("player_shoot"))) audio_play_sound(snd_asset("player_shoot"), 2, false);
 		_shot.shot_direction = facing_direction
 		_shot.image_xscale = sign(facing_direction)		
 	}

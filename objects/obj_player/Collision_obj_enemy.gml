@@ -13,6 +13,7 @@ if (_above_enemy && _falling) {
 	}
 
 	with (other) {
+		if (!audio_is_playing(snd_asset("smash"))) audio_play_sound(snd_asset("smash"), 2, false);
 		walksp = 0;
 		sprite_index = spr_enemy_dead;
 	}
@@ -23,8 +24,10 @@ if (_above_enemy && _falling) {
 	if (!invincible) {		
 		global.shake_magnitude = 5;
 		global.hp -= 1;
+		if (!audio_is_playing(snd_asset("collision"))) audio_play_sound(snd_asset("collision"), 2, false);
 		
-		if (global.hp <= 0) {
+		if (global.hp <= 0) {			
+			if (!audio_is_playing(snd_asset("player_dead"))) audio_play_sound(snd_asset("player_dead"), 2, false);
 			walksp = 0;
 			sprite_index = spr_player_dead;			
 		} else {  

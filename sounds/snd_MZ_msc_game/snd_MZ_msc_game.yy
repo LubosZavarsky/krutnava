@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_lz_one",
+  "name": "snd_MZ_msc_game",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 8.045714,
+  "duration": 51.879288,
   "parent": {
-    "name": "lz",
-    "path": "folders/Sounds/lz.yy",
+    "name": "mz",
+    "path": "folders/Sounds/mz.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_lz_one.mp3",
-  "type": 0,
+  "soundFile": "snd_MZ_msc_game.mp3",
+  "type": 1,
   "volume": 1.0,
 }

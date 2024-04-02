@@ -14,7 +14,7 @@ draw_set_font(fnt_game);
 cutscene_finished = false;
 
 // test
-room_goto(rm_game)
+//room_goto(rm_game)
 
 // --------TO DO----------
 

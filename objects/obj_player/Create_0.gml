@@ -15,3 +15,5 @@ has_weapon = false;
 weapon_sprite_index = noone;
 
 facing_direction = 1;
+
+//persistent = true;

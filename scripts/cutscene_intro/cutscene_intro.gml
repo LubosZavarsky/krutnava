@@ -10,8 +10,7 @@ function cutscene_intro() {
 	    } else {
 	        // Stop the cutscene once the player reaches or passes the target position
 	        _player.y = _target_y; // Ensure the player is exactly at the target position
-	        _player.image_index = 0;
-			cutscene_finished = true;
+	        _player.image_index = 0;			
 			room_transition(2);
 		}	
 }

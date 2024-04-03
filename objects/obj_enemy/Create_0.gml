@@ -13,3 +13,4 @@ cooldown = 0;
 cooldown_duration = irandom_range(60, 120); 
 
 sprite_index = choose(spr_enemy_green, spr_enemy_black, spr_enemy_purple);
+

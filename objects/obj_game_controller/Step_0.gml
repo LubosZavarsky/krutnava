@@ -6,13 +6,6 @@ var _cam_height = camera_get_view_height(view_camera[0])
 
 var _is_camera_at_bottom = _cam_y + _cam_height >= room_height;
 
-//if(room == rm_menu) {
-	
-//	if (_space) {
-//		room_goto_next();
-//	}
-	
-//}
 
 if (room == rm_intro) {
 	
@@ -21,20 +14,26 @@ if (room == rm_intro) {
         if (instance_exists(obj_title)) {
            
             instance_destroy(obj_title);              
-			instance_create_layer(0, 0, "Instances", obj_story);
+			instance_create_layer(0, 0, "Instances", obj_story_1);
 			
-        } else if (instance_exists(obj_story)) {
+        } else if (instance_exists(obj_story_1)) {
             
-            instance_destroy(obj_story);
+            instance_destroy(obj_story_1);
+			instance_create_layer(0, 0, "Instances", obj_story_2);
+			
+		} else if (instance_exists(obj_story_2)) {
+            
+            instance_destroy(obj_story_2);		
 			instance_create_layer(0, 0, "Instances", obj_controls);
 			
 		} else if (instance_exists(obj_controls)) {
-            
-            instance_destroy(obj_controls);			
+		
+			instance_destroy(obj_controls);
+		
 		}
     }
 	
-	if (!instance_exists(obj_title) && !instance_exists(obj_story) && !instance_exists(obj_controls)) {
+	if (!instance_exists(obj_title) && !instance_exists(obj_story_1)  && !instance_exists(obj_story_2) && !instance_exists(obj_controls)) {
 	
 		camera_scroll(4);
 		
@@ -43,9 +42,6 @@ if (room == rm_intro) {
 		} 	
 	}
 	
-	//if (cutscene_finished && _space || cutscene_finished && _click) {
-	//	room_transition(2); ---> presunute do scriptu cutscene_intro
-	//}	
 }
 
 
@@ -58,17 +54,27 @@ if (room == rm_ufo_1 || room == rm_ufo_2 || room == rm_win_1) {
 
 if (room == rm_win_2 || room == rm_lost) {
 
-	if _space || _click game_restart();
+	if _space || _click {
+	
+		if (os_browser != browser_not_a_browser) {	
+			audio_stop_all();
+			room_goto(rm_refresh);
+		} else {
+			game_restart();
+		}	
+	
+	} 
 
 }
 
-// test
+
 if  keyboard_check_pressed(vk_escape) {
 	
-	//room_goto(rm_menu);
-	audio_stop_all();
-	
-	game_restart();
-	//restart();
+	if (os_browser != browser_not_a_browser) {	
+		audio_stop_all();
+		room_goto(rm_refresh);
+	} else {
+		game_restart();
+	}	
 
 }

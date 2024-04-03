@@ -6,7 +6,7 @@ var key_up = keyboard_check(vk_up);
 var key_shot = keyboard_check(vk_shift);
 var touching_ladder_and_holding_up = place_meeting(x, y, obj_ladder) && key_up;
 
-if global.hp <= 0 exit;
+if global.hp <= 0 || global.collect >= 6 exit;
 
 if(key_right) {
 	facing_direction = 1;

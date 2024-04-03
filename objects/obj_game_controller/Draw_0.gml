@@ -1,23 +1,11 @@
-//// get camera view
-//	var cx = camera_get_view_x(view_camera[0]);
-//	var cy = camera_get_view_y(view_camera[0]);
-//	//var cw = camera_get_view_width(view_camera[0]);
+draw_set_font(fnt_refresh);
+draw_set_colour(c_white);
 
-//	// draw text	
-//	//draw_set_colour(c_red);
-//	//draw_text(cx + cw/2.5, cy + 25, "Press R to restart");
-	
-//	draw_set_colour(c_red);
-
-//if (room == rm_game || room == rm_dvorana || room = rm_roof) {
+if room == rm_refresh {
 			
-//		// LIVES
-//		for (var _i = 0; _i < global.hp; _i++) {
-//			draw_sprite(spr_heart, 0, cx + 10 + 40 * _i, cy + 10)			
-//		}		
-//		//draw_text(cx + 25, cy + 25,"lives: "+ string(global.hp));
-		
-//		// COLLECTIBLES
-//		draw_text(cx + 540, cy + 25,"parts: "+ string(global.collect) + " / 6");
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_middle);			
+		draw_text(room_width/2, room_height/2, "Refreshni browser!");
+		draw_set_halign(fa_left);
 
-//}
+}

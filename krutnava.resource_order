@@ -33,6 +33,8 @@
     {"name":"snd_MZ_enemy_hit","order":14,"path":"sounds/snd_MZ_enemy_hit/snd_MZ_enemy_hit.yy",},
     {"name":"snd_MZ_player_hit","order":6,"path":"sounds/snd_MZ_player_hit/snd_MZ_player_hit.yy",},
     {"name":"snd_XY_msc_game","order":10,"path":"sounds/snd_XY_msc_game/snd_XY_msc_game.yy",},
+    {"name":"obj_step","order":1,"path":"objects/obj_step/obj_step.yy",},
+    {"name":"obj_step_left","order":2,"path":"objects/obj_step_left/obj_step_left.yy",},
     {"name":"obj_shot_player","order":2,"path":"objects/obj_shot_player/obj_shot_player.yy",},
     {"name":"snd_MZ_reception","order":4,"path":"sounds/snd_MZ_reception/snd_MZ_reception.yy",},
     {"name":"snd_XY_steps","order":1,"path":"sounds/snd_XY_steps/snd_XY_steps.yy",},

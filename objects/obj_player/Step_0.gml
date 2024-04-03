@@ -40,7 +40,8 @@ if (touching_ladder_and_holding_up) {
 	
 	    
     // Jumping
-    if (place_meeting(x, y+1, obj_solid) && key_jump) {
+	var can_jump = place_meeting(x, y+1, obj_solid) || place_meeting(x, y+1, obj_step) || place_meeting(x, y+1, obj_step_left);
+    if (can_jump && key_jump) {
 		if (!audio_is_playing(snd_asset("jump"))) audio_play_sound(snd_asset("jump"), 2, false);
         vsp = -jumpsp;
     }
@@ -50,11 +51,22 @@ if (touching_ladder_and_holding_up) {
 		//var _instance = instance_place(x+hsp, y, obj_solid)		
 		//y = _instance.y - _instance.sprite_height * 2
 		
-        while (!place_meeting(x+sign(hsp), y, obj_solid)) {    
+        while (!place_meeting(x+sign(hsp), y, obj_solid)) {
             x = x + sign(hsp);    
         }
         hsp = 0;
     }
+	
+	// Stairs
+	if(place_meeting(x+hsp, y, obj_step)) {
+		var _instance = instance_place(x+hsp, y, obj_step)
+		y = _instance.y - _instance.sprite_height * 2	
+	}
+	
+	if(place_meeting(x-hsp, y, obj_step_left) && key_up) {
+		var _instance = instance_place(x - hsp, y, obj_step_left) 
+		y = _instance.y - _instance.sprite_height * 2
+	}
     
     x = x + hsp;
     
@@ -65,11 +77,26 @@ if (touching_ladder_and_holding_up) {
         }
         vsp = 0;
     }
+	
+	if (place_meeting(x, y+vsp, obj_step)) {
+        while (!place_meeting(x, y+sign(vsp), obj_step)) {    
+            y = y + sign(vsp);    
+        }
+        vsp = 0;
+    }
+	
+	if(place_meeting(x, y+vsp, obj_step_left)) {
+		while(!place_meeting(x, y+sign(vsp), obj_step_left)) {
+			y = y + sign(vsp);
+		}
+		vsp = 0;
+	}
+	
     
     y = y + vsp;
     
     // Animation
-    if (!place_meeting(x,y+1,obj_solid)) {
+    if (!place_meeting(x,y+1,obj_solid) && !place_meeting(x, y+1, obj_step) && !place_meeting(x, y + 1, obj_step_left)) {
         sprite_index = spr_player_jump;
 		weapon_sprite_index = spr_ladicka_jump;
 		if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));

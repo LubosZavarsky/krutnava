@@ -56,7 +56,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
@@ -218,6 +218,7 @@
     {"id":{"name":"spr_kniznica","path":"sprites/spr_kniznica/spr_kniznica.yy",},},
     {"id":{"name":"spr_schody_male","path":"sprites/spr_schody_male/spr_schody_male.yy",},},
     {"id":{"name":"rm_dvorana","path":"rooms/rm_dvorana/rm_dvorana.yy",},},
+    {"id":{"name":"obj_step","path":"objects/obj_step/obj_step.yy",},},
     {"id":{"name":"obj_obraz_3","path":"objects/obj_obraz_3/obj_obraz_3.yy",},},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},},
     {"id":{"name":"spr_player_climb","path":"sprites/spr_player_climb/spr_player_climb.yy",},},
@@ -226,6 +227,7 @@
     {"id":{"name":"spr_piano","path":"sprites/spr_piano/spr_piano.yy",},},
     {"id":{"name":"obj_chodba_dvorana","path":"objects/obj_chodba_dvorana/obj_chodba_dvorana.yy",},},
     {"id":{"name":"obj_kvet_2","path":"objects/obj_kvet_2/obj_kvet_2.yy",},},
+    {"id":{"name":"obj_step_left","path":"objects/obj_step_left/obj_step_left.yy",},},
     {"id":{"name":"spr_chodba_roof","path":"sprites/spr_chodba_roof/spr_chodba_roof.yy",},},
     {"id":{"name":"obj_chodba_start","path":"objects/obj_chodba_start/obj_chodba_start.yy",},},
     {"id":{"name":"spr_roof_bg_3","path":"sprites/spr_roof_bg_3/spr_roof_bg_3.yy",},},

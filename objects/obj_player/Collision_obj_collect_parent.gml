@@ -1,3 +1,6 @@
+var _center_x = camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]) / 2;
+var _center_y = camera_get_view_y(view_camera[0]) + camera_get_view_height(view_camera[0]) / 2;
+
 with (other) {
 
 	instance_create_layer(other.x, other.y, "Instances", obj_collect_taken);
@@ -14,8 +17,9 @@ if (global.collect >= 6 ) {
 	//with (obj_player) instance_deactivate_object(obj_player)
 	with (obj_enemy) instance_deactivate_object(obj_enemy)
 	
-	instance_create_layer(other.x, other.y, "All_taken", obj_all_taken);
+	instance_create_layer(_center_x, _center_y, "All_taken", obj_all_taken);
 			
 	alarm[2] = 60;	
 
 }
+

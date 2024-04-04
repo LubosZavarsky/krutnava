@@ -2,7 +2,7 @@
 global.audio_set = "";
 
 // Health points
-global.hp = 3;
+global.hp = 4;
 
 // Collectibles
 global.collect = 0;

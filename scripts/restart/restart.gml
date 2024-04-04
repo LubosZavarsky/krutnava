@@ -21,20 +21,20 @@ function restart() {
 			
 			room_goto(rm_game);
 			room_persistent = false;	
-			room_goto(rm_reset);
+			room_goto(rm_restart);
 			room_set_persistent(rm_game, true)		
 			room_goto(rm_game);
 	
 			room_goto(rm_dvorana);					
 			room_persistent = false;	
-			room_goto(rm_reset);
+			room_goto(rm_restart);
 			room_set_persistent(rm_dvorana, true)	
 			room_goto(rm_dvorana);	
 		
 		
 			room_goto(rm_roof)				
 			room_persistent = false;	
-			room_goto(rm_reset);
+			room_goto(rm_restart);
 			room_set_persistent(rm_roof, true)	
 			room_goto(rm_roof)		
 			

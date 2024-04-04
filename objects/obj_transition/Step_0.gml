@@ -12,8 +12,10 @@ if (image_xscale <= 1 && !finished) {
 		with(obj_player) {
 			x = other.target_x;
 			y = other.target_y;
+			freeze = false;
 		}
 	}
-
+	
+	
 	instance_destroy()
 }

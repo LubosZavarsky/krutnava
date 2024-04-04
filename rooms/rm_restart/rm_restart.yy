@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "rm_reset",
+  "name": "rm_restart",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

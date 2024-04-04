@@ -4,7 +4,7 @@ initial_y = y;
 hsp = 0;
 vsp = 0;
 grv = 0.3;
-walksp = 4;
+walksp = 4.7;
 jumpsp = 10;
 climb_spd = 3;
 
@@ -16,4 +16,8 @@ weapon_sprite_index = noone;
 
 facing_direction = 1;
 
-//persistent = true;
+freeze = false;
+
+// Shooting cooldown
+cooldown = 0; 
+cooldown_duration = 40; 

@@ -1,3 +1,5 @@
+if (instance_exists(obj_player)) && obj_player.freeze exit;
+
 vsp = vsp + grv;
 
 // Horizontal collision - change direction
@@ -38,8 +40,8 @@ if (x > _cam_x && x < _cam_x + _cam_width && y > _cam_y && y < _cam_y + _cam_hei
 	is_in_camera_view = false;
 }
 
-if(is_in_camera_view) {
-	show_debug_message("enemy in camera view facing " + string(facing_direction))
+if(is_in_camera_view && instance_exists(obj_player)) {
+	//show_debug_message("enemy in camera view facing " + string(facing_direction))
 	var _player = instance_find(obj_player, 0)
 	
 	var _player_in_front = false;
@@ -49,7 +51,7 @@ if(is_in_camera_view) {
         _player_in_front = true;
     }
 	
-	if(_player_in_front && point_distance(x, y, _player.x, _player.y) < 250 && !instance_exists(obj_shot_enemy) && cooldown <= 0 && sprite_index != spr_enemy_dead) {
+	if(_player_in_front && abs(x - _player.x) < 250 && !instance_exists(obj_shot_enemy) && cooldown <= 0 && sprite_index != spr_enemy_dead) {
 		var _shot = instance_create_layer(x, y, "Enemy_shot", obj_shot_enemy);
 		if (!audio_is_playing(snd_asset("enemy_shoot"))) audio_play_sound(snd_asset("enemy_shoot"), 2, false);
 		_shot.shot_direction = -facing_direction	

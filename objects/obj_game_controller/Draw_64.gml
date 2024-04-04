@@ -1,6 +1,6 @@
 
 draw_set_font(fnt_hud);
-draw_set_colour(c_red);
+draw_set_colour($fb5cae);
 
 if (room == rm_game || room == rm_dvorana || room = rm_roof) {
 			

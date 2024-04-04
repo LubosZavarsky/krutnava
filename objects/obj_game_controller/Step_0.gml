@@ -60,7 +60,8 @@ if (room == rm_win_2 || room == rm_lost) {
 			audio_stop_all();
 			room_goto(rm_refresh);
 		} else {
-			game_restart();
+			//game_restart();
+			room_transition(rm_restart);
 		}	
 	
 	} 
@@ -74,7 +75,14 @@ if  keyboard_check_pressed(vk_escape) {
 		audio_stop_all();
 		room_goto(rm_refresh);
 	} else {
-		game_restart();
+		//game_restart();
+		room_transition(rm_restart);
 	}	
+
+}
+
+if (room == rm_restart) {
+	
+	game_restart();
 
 }

@@ -6,7 +6,16 @@ var key_up = keyboard_check(vk_up);
 var key_shot = keyboard_check(vk_shift);
 var touching_ladder_and_holding_up = place_meeting(x, y, obj_ladder) && key_up;
 
-if global.hp <= 0 || global.collect >= 6 exit;
+if (freeze) {
+	sprite_index = spr_player_climb;
+	image_index = 0;
+	image_speed = 0;	
+	if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));
+} else {
+	image_speed = 1;	
+}
+
+if global.hp <= 0 || global.collect >= 6 || freeze exit;
 
 if(key_right) {
 	facing_direction = 1;
@@ -84,13 +93,19 @@ if (touching_ladder_and_holding_up) {
 			if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));
         }
     }	
+	
+	// SHOOTING
+	if (cooldown > 0) {
+		cooldown--;
+	}
 
-	if(has_weapon && key_shot && !instance_exists(obj_shot_player)) {		
+	if(has_weapon && key_shot && cooldown <= 0) {		
 				
 		var _shot = instance_create_layer(x, y, "Player_shot", obj_shot_player)
-		if (!audio_is_playing(snd_asset("player_shoot"))) audio_play_sound(snd_asset("player_shoot"), 2, false);
+		audio_play_sound(snd_asset("player_shoot"), 2, false);
 		_shot.shot_direction = facing_direction
 		_shot.image_xscale = sign(facing_direction)		
+		cooldown = cooldown_duration; // Start cooldown
 	}
 }
 

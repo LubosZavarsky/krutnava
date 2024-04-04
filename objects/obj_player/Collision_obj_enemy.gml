@@ -21,7 +21,7 @@ if (_above_enemy && _falling) {
 	vsp = -8
 } else {	
 	
-	if (!invincible) {		
+	if (!invincible && obj_enemy.sprite_index != spr_enemy_dead) {		
 		global.shake_magnitude = 5;
 		global.hp -= 1;
 		if (!audio_is_playing(snd_asset("collision"))) audio_play_sound(snd_asset("collision"), 2, false);

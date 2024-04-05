@@ -1,10 +1,10 @@
 // Player input
-var key_left = keyboard_check(vk_left);
-var key_right = keyboard_check(vk_right);
-var key_jump = keyboard_check_pressed(vk_space);
-var key_up = keyboard_check(vk_up);
-var key_shot = keyboard_check(vk_shift);
-var touching_ladder_and_holding_up = place_meeting(x, y, obj_ladder) && key_up;
+var _key_left = keyboard_check(vk_left);
+var _key_right = keyboard_check(vk_right);
+var _key_jump = keyboard_check_pressed(vk_space);
+var _key_up = keyboard_check(vk_up);
+var _key_shot = keyboard_check(vk_shift);
+var _touching_ladder_and_holding_up = place_meeting(x, y, obj_ladder) && _key_up;
 
 if (freeze) {
 	sprite_index = spr_player_climb;
@@ -15,32 +15,27 @@ if (freeze) {
 	image_speed = 1;	
 }
 
-if global.hp <= 0 || global.collect >= 6 || freeze exit;
+// Stop executing the rest
+if (global.hp <= 0 || global.collect >= 6 || freeze) exit;
 
-if(key_right) {
+// Facing directions
+if(_key_right) {
 	facing_direction = 1;
-} else if(key_left) {
+} else if(_key_left) {
 	facing_direction = -1;
 }
 
-//if instance_exists(obj_shot_player){
-
-//	sprite_index = spr_player_shoot;
-//	exit;
-//} 
-
-
 // Climbing
-if (touching_ladder_and_holding_up) {
+if (_touching_ladder_and_holding_up) {
     // Climb up
     y -= climb_spd;
 	sprite_index = spr_player_climb;
 	weapon_sprite_index = spr_ladicka_up;
 } else {
     // Movement calc
-    var move = key_right - key_left; // 1 or -1 or 0 (when arrows pressed together)
+    var _move = _key_right - _key_left; // 1 or -1 or 0 (when arrows pressed together)
     
-    hsp = move * walksp;
+    hsp = _move * walksp;
     vsp = vsp + grv;
 	
 	// Keep player in the room
@@ -49,7 +44,7 @@ if (touching_ladder_and_holding_up) {
 	
 	    
     // Jumping
-    if (place_meeting(x, y+1, obj_solid) && key_jump) {
+    if (place_meeting(x, y+1, obj_solid) && _key_jump) {
 		if (!audio_is_playing(snd_asset("jump"))) audio_play_sound(snd_asset("jump"), 2, false);
         vsp = -jumpsp;
     }
@@ -99,7 +94,7 @@ if (touching_ladder_and_holding_up) {
 		cooldown--;
 	}
 
-	if(has_weapon && key_shot && cooldown <= 0) {		
+	if(has_weapon && _key_shot && cooldown <= 0) {		
 				
 		var _shot = instance_create_layer(x, y, "Player_shot", obj_shot_player)
 		audio_play_sound(snd_asset("player_shoot"), 2, false);

@@ -13,8 +13,7 @@ global.collect += 1;
 
 if (global.collect >= 6 ) {
 	
-	// deactivate movement player + enemies ---> test
-	//with (obj_player) instance_deactivate_object(obj_player)
+	// deactivate movement player + enemies ---> test	
 	with (obj_enemy) instance_deactivate_object(obj_enemy)
 	
 	instance_create_layer(_center_x, _center_y, "All_taken", obj_all_taken);

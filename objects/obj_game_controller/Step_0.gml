@@ -33,7 +33,7 @@ if (room == rm_intro) {
 		}
     }
 	
-	if (!instance_exists(obj_title) && !instance_exists(obj_story_1)  && !instance_exists(obj_story_2) && !instance_exists(obj_controls)) {
+	if (!instance_exists(obj_title) && !instance_exists(obj_story_1) && !instance_exists(obj_story_2) && !instance_exists(obj_controls)) {
 	
 		camera_scroll(4);
 		

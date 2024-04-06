@@ -1,3 +1,5 @@
+randomize();
+
 if (instance_exists(obj_player)) && obj_player.freeze exit;
 
 vsp = vsp + grv;
@@ -51,12 +53,15 @@ if(is_in_camera_view && instance_exists(obj_player)) {
         _player_in_front = true;
     }
 	
-	if(_player_in_front && abs(x - _player.x) < 250 && !instance_exists(obj_shot_enemy) && cooldown <= 0 && sprite_index != spr_enemy_dead) {
-		var _shot = instance_create_layer(x, y, "Enemy_shot", obj_shot_enemy);
-		if (!audio_is_playing(snd_asset("enemy_shoot"))) audio_play_sound(snd_asset("enemy_shoot"), 2, false);
-		_shot.shot_direction = -facing_direction	
-		_shot.image_xscale = sign(facing_direction)
-		cooldown = cooldown_duration; // Start cooldown
+	if(_player_in_front && point_distance(x, y, _player.x, _player.y) < 250 && !instance_exists(obj_shot_enemy) && cooldown <= 0 && sprite_index != spr_enemy_dead) {
+		
+		 if (random(1) < 0.5) { // 50/50 chance
+			var _shot = instance_create_layer(x, y, "Enemy_shot", obj_shot_enemy);
+			if (!audio_is_playing(snd_asset("enemy_shoot"))) audio_play_sound(snd_asset("enemy_shoot"), 2, false);
+			_shot.shot_direction = -facing_direction	
+			_shot.image_xscale = sign(facing_direction)
+			cooldown = cooldown_duration; // Start cooldown
+		 }
 	}
 }
 

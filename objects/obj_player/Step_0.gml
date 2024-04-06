@@ -27,11 +27,14 @@ if(_key_right) {
 
 // Climbing
 if (_touching_ladder_and_holding_up) {
+	
     // Climb up
     y -= climb_spd;
 	sprite_index = spr_player_climb;
 	weapon_sprite_index = spr_ladicka_up;
+	if (audio_is_playing(snd_asset("steps"))) audio_stop_sound(snd_asset("steps"));
 } else {
+	
     // Movement calc
     var _move = _key_right - _key_left; // 1 or -1 or 0 (when arrows pressed together)
     
@@ -39,7 +42,7 @@ if (_touching_ladder_and_holding_up) {
     vsp = vsp + grv;
 	
 	// Keep player in the room
-	x=clamp(x,0,room_width-sprite_width/2);
+	x=clamp(x, 0, room_width-sprite_width/2);
 	//y=clamp(y,0,room_height-sprite_height/2);
 	
 	    
@@ -94,7 +97,7 @@ if (_touching_ladder_and_holding_up) {
 		cooldown--;
 	}
 
-	if(has_weapon && _key_shot && cooldown <= 0) {		
+	if (has_weapon && _key_shot && cooldown <= 0) {		
 				
 		var _shot = instance_create_layer(x, y, "Player_shot", obj_shot_player)
 		audio_play_sound(snd_asset("player_shoot"), 2, false);
@@ -104,6 +107,5 @@ if (_touching_ladder_and_holding_up) {
 	}
 }
 
-
-// Flip the sprite in the right direction
+// Flip sprite in the right direction
 if (hsp != 0) image_xscale = sign(hsp);

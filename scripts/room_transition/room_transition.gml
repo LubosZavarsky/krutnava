@@ -1,5 +1,6 @@
 
-function room_transition(_target_room){
+function room_transition(_target_room) {
+	
 	var _target_x = (argument_count > 1) ? argument[1] : noone;
 	var _target_y = (argument_count > 2) ? argument[2] : noone;
 	

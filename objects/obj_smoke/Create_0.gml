@@ -1,0 +1,1 @@
+initial_x = x; // Store the initial X position of the smoke object

@@ -24,6 +24,11 @@ if (room == rm_intro) {
 		} else if (instance_exists(obj_story_2)) {
             
             instance_destroy(obj_story_2);		
+			instance_create_layer(0, 0, "Instances", obj_story_3);
+		
+		} else if (instance_exists(obj_story_3)) {
+            
+            instance_destroy(obj_story_3);		
 			instance_create_layer(0, 0, "Instances", obj_controls);
 			
 		} else if (instance_exists(obj_controls)) {
@@ -33,7 +38,7 @@ if (room == rm_intro) {
 		}
     }
 	
-	if (!instance_exists(obj_title) && !instance_exists(obj_story_1) && !instance_exists(obj_story_2) && !instance_exists(obj_controls)) {
+	if (!instance_exists(obj_title) && !instance_exists(obj_story_1) && !instance_exists(obj_story_2) && !instance_exists(obj_story_3) && !instance_exists(obj_controls)) {
 	
 		camera_scroll(4);
 		
@@ -86,3 +91,6 @@ if (room == rm_restart) {
 	game_restart();
 
 }
+
+//test
+if  keyboard_check(vk_backspace) room_goto(rm_roof)

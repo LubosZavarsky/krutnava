@@ -1,4 +1,3 @@
-
 draw_set_font(fnt_hud);
 draw_set_colour(c_black);
 

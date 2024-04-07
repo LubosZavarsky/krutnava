@@ -11,9 +11,7 @@ function cutscene_ufo_1(){
 	    } else {
 	        // Stop the cutscene once the player reaches or passes the target position
 	        _player.y = _target_y; // Ensure the player is exactly at the target position
-	        //_player.image_index = 0;		
-			
-			//room_transition(2);
+	       
 			room_goto(rm_ufo_2);
 		}	
 

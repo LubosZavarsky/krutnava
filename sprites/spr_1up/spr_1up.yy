@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "krutnava",
-    "path": "krutnava.yyp",
+    "name": "collectibles",
+    "path": "folders/Sprites/collectibles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

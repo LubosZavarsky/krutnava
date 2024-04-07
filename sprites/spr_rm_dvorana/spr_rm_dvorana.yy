@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "krutnava",
-    "path": "krutnava.yyp",
+    "name": "level",
+    "path": "folders/Sprites/level.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

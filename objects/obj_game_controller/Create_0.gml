@@ -5,7 +5,7 @@ global.audio_set = "";
 global.hp = 3;
 
 // Collectibles
-global.collect = 0;
+global.collect = 5;
 
 // test
 //room_goto(rm_game)

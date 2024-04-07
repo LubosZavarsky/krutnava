@@ -50,8 +50,21 @@ if (room == rm_intro) {
 }
 
 
+if (room == rm_ufo_1) {
 
-if (room == rm_ufo_1 || room == rm_ufo_2 || room == rm_win_1) {
+	//if _space || _click room_goto_next();
+	cutscene_ufo_1();
+
+}
+
+if (room == rm_ufo_2) {
+
+	//if _space || _click room_goto_next();
+	cutscene_ufo_2();
+
+}
+
+if (room == rm_win_1) {
 
 	if _space || _click room_goto_next();
 

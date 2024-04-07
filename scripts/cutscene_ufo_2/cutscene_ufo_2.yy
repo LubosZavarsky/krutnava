@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "cutscene_intro",
+  "name": "cutscene_ufo_2",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

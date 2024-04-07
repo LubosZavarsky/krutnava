@@ -76,7 +76,7 @@ if (room == rm_win_2 || room == rm_lost) {
 	
 		if (os_browser != browser_not_a_browser) {	
 			audio_stop_all();
-			room_goto(rm_refresh);
+			room_transition(rm_refresh);
 		} else {
 			//game_restart();
 			room_transition(rm_restart);
@@ -91,7 +91,7 @@ if  keyboard_check_pressed(vk_escape) {
 	
 	if (os_browser != browser_not_a_browser) {	
 		audio_stop_all();
-		room_goto(rm_refresh);
+		room_transition(rm_refresh);
 	} else {
 		//game_restart();
 		room_transition(rm_restart);

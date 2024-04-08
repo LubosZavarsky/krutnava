@@ -99,6 +99,3 @@ if (room == rm_restart) {
 	game_restart();
 
 }
-
-//test
-if  keyboard_check(vk_backspace) room_goto(rm_roof)

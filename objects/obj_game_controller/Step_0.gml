@@ -51,15 +51,13 @@ if (room == rm_intro) {
 
 
 if (room == rm_ufo_1) {
-
-	//if _space || _click room_goto_next();
+	
 	cutscene_ufo_1();
 
 }
 
 if (room == rm_ufo_2) {
-
-	//if _space || _click room_goto_next();
+	
 	cutscene_ufo_2();
 
 }
@@ -80,10 +78,8 @@ if (room == rm_win_2 || room == rm_lost) {
 		} else {
 			//game_restart();
 			room_transition(rm_restart);
-		}	
-	
+		}		
 	} 
-
 }
 
 
@@ -96,7 +92,6 @@ if  keyboard_check_pressed(vk_escape) {
 		//game_restart();
 		room_transition(rm_restart);
 	}	
-
 }
 
 if (room == rm_restart) {

@@ -5,7 +5,7 @@
 function cutscene_ufo_2() {
 	
 	var _target_x = -150;
-    var _acceleration = 0.05; // Rate at which speed increases
+    var _acceleration = 0.01; // Rate at which speed increases
     var _ufo = instance_find(obj_ufo_flying, 0); // Find the UFO object
     
     if (_ufo != noone) {

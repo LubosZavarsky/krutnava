@@ -59,13 +59,25 @@ if (room == rm_ufo_1) {
 if (room == rm_ufo_2) {
 	
 	cutscene_ufo_2();
-
 }
 
 if (room == rm_win_1) {
 
-	if _space || _click room_goto_next();
-
+	if _space || _click {
+	
+		 if (!instance_exists(obj_bubble_ilja)) {           
+                        
+			instance_create_layer(305, 224, "Instances", obj_bubble_ilja);
+			
+        } else if (instance_exists(obj_bubble_ilja) && !instance_exists(obj_bubble_eugen)) {
+                        
+			instance_create_layer(355, 338, "Instances", obj_bubble_eugen);		
+			
+		} else {
+			
+			room_goto_next();
+		} 	
+	}
 }
 
 if (room == rm_win_2 || room == rm_lost) {
@@ -99,3 +111,6 @@ if (room == rm_restart) {
 	game_restart();
 
 }
+
+// ilja 285,224
+// eugen 355,338

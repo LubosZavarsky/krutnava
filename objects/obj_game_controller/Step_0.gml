@@ -88,7 +88,7 @@ if (room == rm_win_2 || room == rm_lost) {
 			audio_stop_all();
 			room_transition(rm_refresh);
 		} else {
-			//game_restart();
+			
 			room_transition(rm_restart);
 		}		
 	} 
@@ -101,7 +101,7 @@ if  keyboard_check_pressed(vk_escape) {
 		audio_stop_all();
 		room_transition(rm_refresh);
 	} else {
-		//game_restart();
+		
 		room_transition(rm_restart);
 	}	
 }
@@ -112,5 +112,4 @@ if (room == rm_restart) {
 
 }
 
-// ilja 285,224
-// eugen 355,338
+

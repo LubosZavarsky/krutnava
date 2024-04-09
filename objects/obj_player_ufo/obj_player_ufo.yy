@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ufo_cutscenes",
-    "path": "folders/Objects/ufo_cutscenes.yy",
+    "name": "end_cutscenes",
+    "path": "folders/Objects/end_cutscenes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

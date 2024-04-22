@@ -1,10 +1,14 @@
 var _space = keyboard_check_pressed(vk_space);
 var _click = mouse_check_button_pressed(mb_left);
+var _fullscrn = keyboard_check_pressed(ord("F"));
 
 var _cam_y = camera_get_view_y(view_camera[0])
 var _cam_height = camera_get_view_height(view_camera[0])
 
 var _is_camera_at_bottom = _cam_y + _cam_height >= room_height;
+
+// Fullscreen toggle
+if _fullscrn window_set_fullscreen(!window_get_fullscreen());
 
 
 if (room == rm_intro) {

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_nic_volne",
+  "name": "obj_snd_MZ_bubble",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "level",
-    "path": "folders/Objects/level.yy",
+    "name": "bubbles",
+    "path": "folders/Objects/bubbles.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_nic_volne",
-    "path": "sprites/spr_nic_volne/spr_nic_volne.yy",
+    "name": "spr_snd_MZ_bubble",
+    "path": "sprites/spr_snd_MZ_bubble/spr_snd_MZ_bubble.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 16.169874,
   "parent": {
-    "name": "mute",
-    "path": "folders/Sounds/mute.yy",
+    "name": "MUTE",
+    "path": "folders/Sounds/MUTE.yy",
   },
   "preload": false,
   "sampleRate": 44100,

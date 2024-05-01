@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 38.165,
   "parent": {
-    "name": "mz",
-    "path": "folders/Sounds/mz.yy",
+    "name": "MZ",
+    "path": "folders/Sounds/MZ.yy",
   },
   "preload": false,
   "sampleRate": 44100,

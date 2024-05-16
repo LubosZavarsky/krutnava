@@ -13,7 +13,7 @@
   "duration": 24.1895,
   "parent": {
     "name": "MZ",
-    "path": "folders/Sounds/MZ.yy",
+    "path": "folders/Sounds/test/MZ.yy",
   },
   "preload": false,
   "sampleRate": 44100,

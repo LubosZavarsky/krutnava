@@ -122,19 +122,31 @@ if (room == rm_menu) {
 	// Handle arrow key input for navigation
 	if (keyboard_check_pressed(vk_right)) {
 	    current_btn_x += 1;
-	    if (current_btn_x > max_btn_x) current_btn_x = 1; // Wrap around to the first button in the row
+	    if (current_btn_x > max_btn_x) {
+	        current_btn_x = 1; // Wrap around to the first button in the row
+	        current_btn_y += 1; // Move to the next row
+	        if (current_btn_y > max_btn_y) current_btn_y = 1; // Wrap around to the first row
+	    }
 	}
 	if (keyboard_check_pressed(vk_left)) {
 	    current_btn_x -= 1;
-	    if (current_btn_x < 1) current_btn_x = max_btn_x; // Wrap around to the last button in the row
+	    if (current_btn_x < 1) {
+	        current_btn_x = max_btn_x; // Wrap around to the last button in the row
+	        current_btn_y -= 1; // Move to the previous row
+	        if (current_btn_y < 1) current_btn_y = max_btn_y; // Wrap around to the last row
+	    }
 	}
 	if (keyboard_check_pressed(vk_down)) {
 	    current_btn_y += 1;
-	    if (current_btn_y > max_btn_y) current_btn_y = 1; // Wrap around to the first button in the column
+	    if (current_btn_y > max_btn_y) {
+	        current_btn_y = 1; // Wrap around to the first button in the column
+	    }
 	}
 	if (keyboard_check_pressed(vk_up)) {
 	    current_btn_y -= 1;
-	    if (current_btn_y < 1) current_btn_y = max_btn_y; // Wrap around to the last button in the column
+	    if (current_btn_y < 1) {
+	        current_btn_y = max_btn_y; // Wrap around to the last button in the column
+	    }
 	}
 
 	// Calculate the current button index based on the grid position

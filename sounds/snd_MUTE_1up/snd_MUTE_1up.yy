@@ -13,7 +13,7 @@
   "duration": 1.75025,
   "parent": {
     "name": "MUTE",
-    "path": "folders/Sounds/MUTE.yy",
+    "path": "folders/Sounds/test/MUTE.yy",
   },
   "preload": false,
   "sampleRate": 44100,

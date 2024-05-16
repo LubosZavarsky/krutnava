@@ -1,4 +1,4 @@
-draw_set_font(fnt_refresh);
+draw_set_font(fnt_big);
 draw_set_colour(c_white);
 
 if room == rm_refresh {

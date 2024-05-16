@@ -1,4 +1,5 @@
 var _space = keyboard_check_pressed(vk_space);
+var _enter = keyboard_check_pressed(vk_enter);
 var _click = mouse_check_button_pressed(mb_left);
 var _fullscrn = keyboard_check_pressed(ord("F"));
 
@@ -14,7 +15,7 @@ if _fullscrn window_set_fullscreen(!window_get_fullscreen());
 if (room == rm_intro) {
 	
 		
-    if (_space || _click) {
+    if _enter || _space || _click {
         if (instance_exists(obj_title)) {
            
             instance_destroy(obj_title);              
@@ -67,7 +68,7 @@ if (room == rm_ufo_2) {
 
 if (room == rm_win_1) {
 
-	if _space || _click {
+	if _enter || _space || _click {
 	
 		 if (!instance_exists(obj_bubble_ilja)) {           
                         
@@ -86,7 +87,7 @@ if (room == rm_win_1) {
 
 if (room == rm_win_2 || room == rm_lost) {
 
-	if _space || _click {
+	if _enter || _space || _click {
 	
 		if (os_browser != browser_not_a_browser) {	
 			audio_stop_all();
@@ -113,6 +114,31 @@ if  keyboard_check_pressed(vk_escape) {
 if (room == rm_restart) {
 	
 	game_restart();
+
+}
+
+if (room == rm_menu) {
+
+	// Handle arrow key input for navigation
+	if (keyboard_check_pressed(vk_right)) {
+	    current_btn_x += 1;
+	    if (current_btn_x > max_btn_x) current_btn_x = 1; // Wrap around to the first button in the row
+	}
+	if (keyboard_check_pressed(vk_left)) {
+	    current_btn_x -= 1;
+	    if (current_btn_x < 1) current_btn_x = max_btn_x; // Wrap around to the last button in the row
+	}
+	if (keyboard_check_pressed(vk_down)) {
+	    current_btn_y += 1;
+	    if (current_btn_y > max_btn_y) current_btn_y = 1; // Wrap around to the first button in the column
+	}
+	if (keyboard_check_pressed(vk_up)) {
+	    current_btn_y -= 1;
+	    if (current_btn_y < 1) current_btn_y = max_btn_y; // Wrap around to the last button in the column
+	}
+
+	// Calculate the current button index based on the grid position
+	current_btn = (current_btn_y - 1) * max_btn_x + current_btn_x;
 
 }
 

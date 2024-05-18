@@ -90,8 +90,10 @@ if (room == rm_win_2 || room == rm_lost) {
 	if _enter || _space || _click {
 	
 		if (os_browser != browser_not_a_browser) {	
+			
 			audio_stop_all();
 			room_transition(rm_refresh);
+			
 		} else {
 			
 			room_transition(rm_restart);
@@ -103,8 +105,10 @@ if (room == rm_win_2 || room == rm_lost) {
 if  keyboard_check_pressed(vk_escape) {
 	
 	if (os_browser != browser_not_a_browser) {	
+		
 		audio_stop_all();
 		room_transition(rm_refresh);
+		
 	} else {
 		
 		room_transition(rm_restart);

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_snd_MUTE_bubble",
+  "name": "obj_snd_RK_bubble",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "test",
-    "path": "folders/Objects/bubbles/test.yy",
+    "name": "bubbles",
+    "path": "folders/Objects/bubbles.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_snd_MUTE_bubble",
-    "path": "sprites/spr_snd_MUTE_bubble/spr_snd_MUTE_bubble.yy",
+    "name": "spr_snd_RK_bubble",
+    "path": "sprites/spr_snd_RK_bubble/spr_snd_RK_bubble.yy",
   },
   "spriteMaskId": null,
   "visible": true,

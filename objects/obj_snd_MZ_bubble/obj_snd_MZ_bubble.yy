@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "bubbles",
-    "path": "folders/Objects/bubbles.yy",
+    "name": "test",
+    "path": "folders/Objects/bubbles/test.yy",
   },
   "parentObjectId": null,
   "persistent": false,

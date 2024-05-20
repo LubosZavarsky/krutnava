@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 3.761633,
+  "duration": 20.532246,
   "parent": {
     "name": "AG",
     "path": "folders/Sounds/AG.yy",

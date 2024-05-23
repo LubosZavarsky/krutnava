@@ -16,7 +16,13 @@ if (freeze) {
 }
 
 // Stop executing the rest
-if (global.hp <= 0 || global.collect >= 6 || freeze) exit;
+if (global.hp <= 0 || freeze) exit;
+
+if  (global.collect >= 6) {
+	image_index = 0;
+	image_speed = 0;	
+	exit;	
+}
 
 // Facing directions
 if(_key_right) {

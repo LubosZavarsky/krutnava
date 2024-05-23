@@ -1,4 +1,4 @@
-// Uncomment to activate menu arrows control
+// Uncomment to activate menu arrows control, comment to use mouse control
 
 //if (obj_game_controller.current_btn == btn_id) {
 //    image_alpha = 1;

@@ -15,10 +15,7 @@ if (global.collect >= 6 ) {
 	
 	// deactivate movement enemies	
 	with (obj_enemy) instance_deactivate_object(obj_enemy)
-	
-	// freeze player animation
-	image_speed = 0;	
-	
+				
 	instance_create_layer(_center_x, _center_y, "All_taken", obj_all_taken);
 	if (audio_is_playing(snd_asset("msc_game"))) audio_stop_sound(snd_asset("msc_game"));
 	if (!audio_is_playing(snd_asset("all_taken"))) audio_play_sound(snd_asset("all_taken"), 2, false);

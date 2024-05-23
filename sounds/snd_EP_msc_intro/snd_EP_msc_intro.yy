@@ -10,7 +10,7 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 15.412245,
+  "duration": 15.4645,
   "parent": {
     "name": "EP",
     "path": "folders/Sounds/EP.yy",
@@ -18,6 +18,6 @@
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "snd_EP_msc_intro.mp3",
-  "type": 1,
+  "type": 0,
   "volume": 1.0,
 }
